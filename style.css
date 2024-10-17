@@ -4,7 +4,7 @@
 		
 		
 		
-	@charset "UTF-8";
+	
 /* CSS Document */
 body{
 padding: 0; margin: 0;
@@ -57,16 +57,32 @@ li{margin-left: 200px;
 }
 
 
-img{margin-left: 370px;
-	
-	
-	
+img{margin-left: 370px;	
 	
 }
 
 
 iframe{margin-left: 250px}
 	
-	
-	
+
+
+ a:link{
+	color:darkgreen;
+	 margin-left: 200px;
+		font-size:1em;
+		font-family:"Playfair Display", serif;	
+}
+
+a:hover{
+	font-size:1.2em;
+	color:chartreuse;
+	font-family:"Playfair Display", serif;
+}
+
+
+.playfair-display-uniquifier{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
